@@ -190,6 +190,13 @@ ul.markc{padding-left: 2em;
     position: absolute;
     width: 40%;
     box-shadow:none;}
+	&.drone{top: 5%;
+	padding: 2% 3%;
+    margin: 0;
+    position: absolute;
+    width: 30%;
+    box-shadow: none;
+	right: 16%;}
     &.righter{right: 0;}
     &.comp{top: 10%;
     padding: 5%;
@@ -220,6 +227,8 @@ ul li::before {
     &.safe-quo{background-image: url('images/safe-quo-hd.jpg');}
     &.ware{background-image: url('images/ware-hd.jpg');}
     &.trns{background-image: url('images/trns-hd.jpg');}
+	&.consul{background-image: url('images/cnsl-hd.jpg');}
+	&.estate{background-image: url('images/estt-hd.jpg');}
     &.drone{background-image: url('images/drone-hd.jpg');
         background-position-y: 80%;}
     &.pl3{background-image: url('images/3pl-hd.jpg');}
@@ -266,13 +275,14 @@ position:relative;
     z-index: -1;}}
 
 .inner-img{position: absolute;
-    top: 55%;
-    right: 11%;
-    width: 32%;
+    top: 0%;
+    right: 0%;
+    width: 24%;
     padding: 0;
     align-items: center;
     max-width: 300px;
-    margin: 0;}
+    margin: 0;
+    z-index: -1;}
 
 .-info{background-image: url('images/bg-02.jpg');
     p{a{color: #163790;}
@@ -331,7 +341,7 @@ header,footer{a {color: #000;font-size: smaller;}
     a:hover {color: #EF6906;}
     ul{line-height:30px;}
     .logo{width: 100%;
-		max-width: 250px;
+	max-width: 250px;
     margin:0;
     line-height:1.6;
     padding:10px;
